@@ -3,8 +3,8 @@ import pandas as pd
 import joblib
 
 # Load model dan fitur
-model = joblib.load(r'C:\Users\ASUS\Documents\miniprojek\employee\model_employee_promotion.pkl')
-fitur = joblib.load(r'C:\Users\ASUS\Documents\miniprojek\employee\fitur_employee_promotion.pkl')
+model = joblib.load('model_employee_promotion.pkl')
+fitur = joblib.load('fitur_employee_promotion.pkl')
 
 st.set_page_config(page_title="Prediksi Promosi", layout="centered")
 st.title("📈 Prediksi Promosi Karyawan")
